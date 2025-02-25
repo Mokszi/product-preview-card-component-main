@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
 }
 
 .text{
@@ -92,6 +93,21 @@ span{
     height: 7vh;
 }
 
+.buy:hover{
+    background-color: hsl(158, 42%, 18%);
+}
+
 .buy img{
     padding-right: 3%;
+}
+
+@media screen and (min-width: 601px){
+    .element{
+        flex-direction: row;
+        width: 50%;
+        }
+
+    .chanel{
+        border-radius: 10px 0px 0px 10px;
+    }
 }

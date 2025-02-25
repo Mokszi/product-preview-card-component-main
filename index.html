@@ -12,7 +12,11 @@
 
 <body>
   <div class="element">
-    <img class="chanel" src="images/image-product-mobile.jpg" alt="product">
+    <picture class="chanel">
+      <source media="(max-width:600px)" srcset="images/image-product-mobile.jpg">
+      <source media="(min-width:601px)" srcset="images/image-product-desktop.jpg">
+      <img src="images/image-product-mobile.jpg" alt="product" style="width:auto;">
+    </picture>
 
     <div class="text">
       <div class="first_text">Perfume</div>
